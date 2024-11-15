@@ -9,24 +9,41 @@
 </head>
 
 <body>
+  <!-- <img class='line-drawing' src="./images/line-drawing-coder-no-bg.png" alt=""> -->
 
   <section id='top-navbar' class='top-navbar'>
     <div id='top-navbar-wrapper' class="max-width-wrapper">
 
-      <div class="logo">
-        <img src="/images/logo.png" alt="">
-        <p class='business-name'>devmytech.com</p>
-      </div>
+      <a href="#home">
+        <div class="logo">
+          <img src="/images/logo.png" alt="">
+          <p class='business-name'>devmytech.com</p>
+        </div>
+      </a>
 
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Pricing</li>
-          <li>Reviews</li>
-          <li>Blog</li>
-          <li>Faq</li>
+          <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="#services">
+            <li>Services</li>
+          </a>
+          <a href="#pricing">
+            <li>Pricing</li>
+          </a>
+          <a href="#reviews">
+            <li>Reviews</li>
+          </a>
+          <a href="#blog">
+            <li>Blog</li>
+          </a>
+          <a href="#faq">
+            <li>Faq</li>
+          </a>
 
         </ul>
       </nav>
@@ -39,37 +56,29 @@
   </section>
 
   <section class='hero'>
+
     <div class='hero-bg'></div>
 
     <div class='hero-content header-text'>
       <p class='p--scalingSize small'>custom design, custom code</p>
       <h1 class='h1--scalingSize' data-text=''>Small Business <br> Web Services</h1>
       <p class='p--scalingSize'>No page builders or WordPress. We offer 100% hand-coded websites with superior results
-        starting at $175/mo as
-        well as Google Ads and SEO services.
+        starting at $175/mo as well as Google Ads and SEO services.
       </p>
-      <div class="btn-wrapper">
+
+      <div class="btn-wrapper call-to-action">
         <button class='btn-primary'>Get Started</button>
         <button class='btn-secondary'>Our Process</button>
       </div>
 
       <div class="btn-wrapper animation-switches">
-        <!-- <label for='switch'><span><span class='icon-houdini'>→</span> switch bg</span></label> -->
         <input type='checkbox' id='hero-pause-switch' />
         <label for='hero-pause-switch'><img class='icon-pause' src="/images/svg-icons/pause.svg" alt="" /></label>
         <input type='checkbox' id='hero-bg-color-switch' />
-        <label for='hero-bg-color-switch'><img class='icon-houdini' src="/images/svg-icons/moon.svg" alt="" /></label>
+        <label for='hero-bg-color-switch'><img class='icon-dark-mode' src="/images/svg-icons/moon.svg" alt="" /></label>
       </div>
 
-
     </div>
-
-    <!-- <div class="custom-shape-divider-bottom-1728772242">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 120" preserveAspectRatio="none">
-        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-          class="shape-fill"></path>
-      </svg>
-    </div> -->
 
   </section>
 
@@ -79,10 +88,9 @@
       <div class="header-text-full">
         <p class='p--scalingSize small'>Our Services</p>
         <h1 class='h1--scalingSize' data-text=''>Clean Code,<br>Solid Sites</h1>
-        <p class='p--scalingSize'>We specialize in small business web design and development
-          for clients anywhere in the US. We take into consideration your business needs in order to design and develop
-          the perfect site to
-          draw clients in and win them over.
+        <p class='p--scalingSize'>We specialize in small business web design and development,
+          and take into consideration your business needs in order to create the perfect site to draw clients in and win
+          them over.
         </p>
 
         <p class='p--scalingSize'>
@@ -115,9 +123,9 @@
           <picture class="img-wrapper">
             <img src="./images/svg-icons/cell-icon.svg" alt="">
           </picture>
-          <h3>In-house Hosting and Domains,</h3>
-          <p>secured with an SSL certificate, and an email address that matches your domain name (ex.
-            name@companydomain.com) shows </p>
+          <h3>In-house Hosting and Domains</h3>
+          <p>Secured with an SSL certificate, and an email address that matches your domain name
+            (example@companydomain.com)</p>
           <a href="">Link to more info</a>
         </li>
 
@@ -181,9 +189,26 @@
         <img class='profile-img' src="/images/profile-1.png" alt="">
       </picture> -->
 
-      <picture class="img-wrapper">
-        <img class='profile-img' src="/images/profile-3.jpg" alt="">
-      </picture>
+      <!-- <picture class="img-wrapper">
+        <img class='profile-img' src="/images/Transhumans - Astro.png" alt="">
+      </picture> -->
+
+      <!-- <picture class="img-wrapper">
+        <img class='profile-img' src="/images/profile-pic-4.jpg" alt="">
+      </picture> -->
+
+      <div class="media-content">
+        <picture class='img-wrapper'>
+          <video src="images/Untitled design.mp4"autoplay loop></video>
+        </picture>
+        <picture class="img-wrapper">
+          <img class='profile-img' src="/images/profile-1.png" alt="">
+        </picture>
+        <picture class="img-wrapper coder-illustration-wrapper">
+          <img class='coder-illustration' src="/images/file.png" alt="">
+        </picture>
+        
+      </div>
 
       <div class="text-content">
 
@@ -246,6 +271,7 @@
 
       </div>
 
+
     </div>
   </section>
 
@@ -270,50 +296,43 @@
       <ul class='grid-container'>
 
         <li class='card'>
-          <a href="">
-            <picture>
-              <img class='desktop-mockup' src="/images/desktop-mockups/desktop-riverbend-liquor.png" alt="">
-              <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-riverbend-liquor.png" alt="">
-              <!-- <video src="/Untitled design.mp4" autoplay></video> -->
-            </picture>
-            <p>Riverbend Liquor & Wine</p>
-            <p>Local, family-owned and -operated liquor store in business for 45 years. Fresh redesign to give this
-              client a modern new look.</p>
-            <button class='btn-primary'>Go to Website</button>
-          </a>
+          <picture>
+            <img class='desktop-mockup' src="/images/desktop-mockups/desktop-riverbend-liquor.png" alt="">
+            <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-riverbend-liquor.png" alt="">
+            <!-- <video src="/Untitled design.mp4" autoplay></video> -->
+          </picture>
+          <p class='title'>Riverbend Liquor & Wine</p>
+          <p>Local, family-owned and -operated liquor store in business for 45 years. Fresh redesign to give this
+            client a modern new look.</p>
+          <a href=''> Go to Website</a>
         </li>
 
         <li class='card'>
-          <a href="">
-            <picture>
-              <img class='desktop-mockup' src="/images/desktop-mockups/desktop-chill-vibes.png" alt="">
-              <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-chill-vibes-2.png" alt="">
+          <picture>
+            <img class='desktop-mockup' src="/images/desktop-mockups/desktop-chill-vibes.png" alt="">
+            <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-chill-vibes-2.png" alt="">
 
-              <!-- <video src="/Untitled design.mp4" autoplay></video> -->
-            </picture>
-            <p>Chill Vibes</p>
-            <p>WooCommerce store connected to the Printify API making it easy for the client to quicky add new designs,
-              and auto-ship products.
-            </p>
-            <button class='btn-primary'>Go To Website</button>
-          </a>
+            <!-- <video src="/Untitled design.mp4" autoplay></video> -->
+          </picture>
+          <p class='title'>Chill Vibes</p>
+          <p>WooCommerce store connected to the Printify API making it easy for the client to quicky add new designs,
+            and auto-ship products.
+          </p>
+          <a href=''> Go to Website</a>
         </li>
 
         <li class='card'>
-          <a href="">
-            <picture>
-              <img class='desktop-mockup' src="/images/desktop-mockups/desktop-cozy-home-remedy.png" alt="">
-              <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-cozy-home-ee.png" alt="">
+          <picture>
+            <img class='desktop-mockup' src="/images/desktop-mockups/desktop-cozy-home-remedy.png" alt="">
+            <img class='mobile-mockup' src="/images/iphone-15-mockup/mobile-cozy-home-ee.png" alt="">
 
-              <!-- <video src="/Untitled design.mp4" autoplay></video> -->
-            </picture>
-            <p>Cozy Home Remedy</p>
-            <p>We built this e-commerce shop with a dropshipping API integration to simplify adding new products, and
-              working with vendors.</p>
-            <button class='btn-primary'>Go to Website</button>
-          </a>
+            <!-- <video src="/Untitled design.mp4" autoplay></video> -->
+          </picture>
+          <p class='title'>Cozy Home Remedy</p>
+          <p>We built this e-commerce shop with a dropshipping API integration to simplify adding new products, and
+            working with vendors.</p>
+          <a href=''> Go to Website</a>
         </li>
-
 
       </ul>
 
@@ -357,7 +376,7 @@
 
       </div>
 
-      <div>
+      <div class='visual-content'>
 
         <ul class="stats">
 
@@ -372,7 +391,8 @@
           </li>
 
           <li class="stat">
-            <p class="number">100 <span>%</span><p>
+            <p class="number">100<span>%</span>
+            <p>
             <p class="desc">Satisfaction <br> Guaranteed</p>
           </li>
 
@@ -381,7 +401,7 @@
 
         <picture class="img-wrapper">
           <!-- <img class='profile-img' src="images/profile-1.png" alt=""> -->
-          <img class='profile-img' src="./images/performance.avif" alt="">
+          <img src="./images/performance.avif" alt="">
         </picture>
 
       </div>
@@ -390,7 +410,257 @@
     </div>
   </section>
 
+  <section class="pricing">
+    <div class="max-width-wrapper">
 
+      <div class="header-text-full">
+        <div>
+          <p class='p--scalingSize small'>Our Pricing</p>
+          <h2 class='h2--scalingSize'>Pricing Packages For Every Budget</h2>
+        </div>
+        <div>
+          <button class='btn-secondary'>Get Started</button>
+        </div>
+
+      </div>
+
+      <ul class='grid-container'>
+
+        <li class='card'>
+          <h3 class='h3--scalingSize'>Lump Sum</h3>
+          <ul>
+            <li>
+              <p class='p--scalingSize'>Design and Development</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Domain (.com up to $15)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>SSL (security certificate)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>$25/month Hosting</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Professional Email</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$50/month unlimited edits add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$300 blog add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+          </ul>
+
+          <p class='price'>$3200 <span>+$25/mo Hosting</span></p>
+          <button class='btn-primary'>Get Started</button>
+        </li>
+
+        <li class='card'>
+          <h3 class='h3--scalingSize'>Monthly</h3>
+          <ul>
+            <li>
+              <p class='p--scalingSize'>Design and Development</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Domain (.com up to $15)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>SSL (security certificate)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>$25/month Hosting</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Professional Email</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$50/month unlimited edits add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$300 blog add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+          </ul>
+
+          <p class='price'>$200<span>/mo all-inclusive</span></p>
+          <button class='btn-primary'>Get Started</button>
+        </li>
+
+        <li class='card'>
+          <h3 class='h3--scalingSize'>Ecommerce</h3>
+          <ul>
+            <li>
+              <p class='p--scalingSize'>Design and Development</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Domain (.com up to $15)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>SSL (security certificate)</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>$25/month Hosting</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>Professional Email</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$50/month unlimited edits add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+            <li>
+              <p class='p--scalingSize'>+$300 blog add-on</p>
+              <img src="./images/svg-icons/checkmark-round-icon.svg" alt="">
+            </li>
+          </ul>
+
+          <p class='price'>$8k <span>and up</span></p>
+          <button class='btn-primary'>Get Started</button>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <section id='testimonials' class='testimonials'>
+    <video autoplay muted loop playsinline>
+      <source src="images/world-spinning.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="max-width-wrapper">
+
+      <div class="header-text">
+        <p class='p--scalingSize small'>Testimonials</p>
+        <h2 class='h2--scalingSize'>Trusted Web Designer<br> Across The Country</h2>
+        <p class='p--scalingSize'>We have helped small business owners all over the US get the website they have been
+          wanting for years. We are invested in our clients just as much as they are in our work. When you work with
+          Devmy Tech, you aren't just working with an agency, you're working with a dedicated partner.
+        </p>
+      </div>
+
+      <ul class="grid-container">
+
+        <li class="card">
+          <picture class="img-wrapper">
+            <img src="./images/svg-icons/quote.svg" alt="">
+          </picture>
+          <p>Your website will be tested to fit, and perform well with different screen sizes, browsers, and operating
+            systems.
+          </p>
+          <p>- Steve Chapman</p>
+        </li>
+
+        <li class="card">
+          <picture class="img-wrapper">
+            <img src="./images/svg-icons/quote.svg" alt="">
+          </picture>
+          <p>Your website will be tested to fit, and perform well with different screen sizes, browsers, and operating
+            systems. Your website will be tested to fit, and perform well with different screen sizes, browsers, and
+            operating
+            systems.
+          </p>
+          <p>- Karen Jeffries</p>
+        </li>
+
+        <li class="card">
+          <picture class="img-wrapper">
+            <img src="./images/svg-icons/quote.svg" alt="">
+          </picture>
+          <p>Your website will be tested to fit, and perform well with different screen sizes, browsers, and operating
+            systems. <br> <br>Your website will be tested to fit, and perform well with different screen sizes, browsers, and
+            operating
+            systems.
+          </p>
+          <p>- John Austin</p>
+        </li>
+
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id='faqs' class='faqs'>
+    <div class="max-width-wrapper">
+
+      <div class="header-text">
+        <p class='p--scalingSize small'>Answers to</p>
+        <h2 class='h2--scalingSize'>Frequently Asked Questions</h2>
+        <p class='p--scalingSize'>Browse our FAQ page for answers to everything you would like to know about what we do,
+          what we charge, our process, and how everything works. </p>
+      </div>
+
+      <div class='btn-wrapper'>
+        <button class="filter-option p--scalingSize" data-filter="one">Pricing</button>
+        <button class="filter-option" data-filter="two">Payments</button>
+        <button class="filter-option active" data-filter="three">Websites</button>
+      </div>
+
+      <ul class='faq-group' data-category='one'>
+        <li class='faq-item'>
+          <details class='selected'>
+            <summary>How long does the subscription last?</summary>
+            <p>The subscription plan lasts for a minimum of 12 months and is month to month after that. Cancel anytime
+              after the 12 months have passed. If you cancel, you don't keep the site (otherwise everyone would just do
+              that and we'd be out of business!).</p>
+          </details>
+        </li>
+
+        <li class='faq-item' data-category='one'>
+          <details>
+            <summary>How long does the subscription last?</summary>
+            <p>The subscription plan lasts for a minimum of 12 months and is month to month after that. Cancel anytime
+              after the 12 months have passed. If you cancel, you don't keep the site (otherwise everyone would just do
+              that and we'd be out of business!).</p>
+          </details>
+        </li>
+
+        <li class='faq-item' data-category='one'>
+          <details>
+            <summary>How long does the subscription last?</summary>
+            <p>The subscription plan lasts for a minimum of 12 months and is month to month after that. Cancel anytime
+              after the 12 months have passed. If you cancel, you don't keep the site (otherwise everyone would just do
+              that and we'd be out of business!).</p>
+          </details>
+        </li>
+      </ul>
+
+
+
+    </div>
+
+  </section>
+
+  <footer>
+    <!-- <picture class="img-wrapper">
+        <img class='desk' src="/images/file.png" alt="">
+    </picture> -->
+    <div class='max-width-wrapper'>
+      <p id='rainbow' class='h1--scalingSize'>DevmyTech.com</p>
+    </div>
+  </footer>
 
   <script>
     window.onscroll = function () {
